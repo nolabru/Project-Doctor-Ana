@@ -157,8 +157,7 @@ header
 
 #link a
 {
-    text-decoration: underline;
-    color: var(--cor5);
+    color: var(--cor1);
 }
 
 #link img
