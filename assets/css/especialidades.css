@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Merriweather:wght@300;400;700;900&display=swap');
+
+:root
+{
+    --cor1: #CAB5D1;
+    --cor2: #E5BFD4;
+    --cor3: #FFF;
+    --cor4: #000;    
+    --cor5: #8D53A5; 
+
+    --merri: 'Merriweather', serif;
+    --merriSans: 'Merriweather Sans', sans-serif;
+}
+
+#medF, #acup{
+    padding: 35px 90px;
+}
+
+#mdf-pt1{
+
+}
+
+#mdf-pt2, #mdf-pt3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+#mdf-pt3{
+    margin-top: 100px;
+}
+
+#mdf-pt2 img, #mdf-pt3 img{
+    width: 600px;
+    height: 350px;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid #cab5d16e;
+}
+
+#mdf-pt3 img
+{
+    border-radius: 0px 10px 10px 0px;
+}
+
+#medF h3{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+/* ------------------------------------------------------------------------- */
+
+@media(max-width:1230px)
+{
+
+    #medF, #acup{
+        padding: 35px 40px;
+    }
+
+    #mdf-pt2, #mdf-pt3{
+        gap: 40px;
+    }
+
+    #mdf-pt2 img, #mdf-pt3 img{
+        width: 450px;
+        height: 275px;
+    }
+    
+}
+
+@media(max-width:900px)
+{
+    #mdf-pt2, #mdf-pt3{
+        flex-direction: column;
+    }
+
+    #mdf-pt2 img, #mdf-pt3 img{
+        width: 100%;
+        height: 100%;
+    }
+
+}

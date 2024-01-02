@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Merriweather:wght@300;400;700;900&display=swap');
+
+:root
+{
+    --cor1: #CAB5D1;
+    --cor2: #E5BFD4;
+    --cor3: #FFF;
+    --cor4: #000;    
+    --cor5: #8D53A5; 
+
+    --merri: 'Merriweather', serif;
+    --merriSans: 'Merriweather Sans', sans-serif;
+}
+
+#ctoDados h3
+{
+    margin-top: 11px;
+}
+
+#consultas
+{
+    padding: 35px 0 15px 0;
+}
+
+.description a
+{
+    background: var(--cor5);
+    padding: 10px 10px;
+    border-radius: 4px;
+    color: var(--cor3);
+    font-weight: 400;
+    font-size: 13px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.description.check.tt
+{
+    font-weight: 400;
+    color: var(--cor1);
+    font-size: 17px;
+}
+
+#ctoLocal
+{
+    margin-top: 0px;    
+}
+
+#ctoLocal #mapsLoc
+{
+    margin-bottom: 25px;
+}
+
+footer 
+{
+    margin-top: 85px;
+}
